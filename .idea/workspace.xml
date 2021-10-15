@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbff39d3-9ee8-45f7-b7f2-4fd8dbd22ff9" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/Test/org/hbrs/se1/ws21/uebung2/ContainerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung2/Container.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung2/ContainerException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung2/Factory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung1/control/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -55,38 +58,61 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.rmicompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.hbrs.se1.ws21.uebung2" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.hbrs.se1.ws21.uebung2" />
       <recent name="org.hbrs.se1.ws21.uebung1.control" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GermanTranslatorTest.translateTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws21.uebung1.control.Main" />
+  <component name="RunManager" selected="JUnit.ContainerTest.sizeTest">
+    <configuration name="ContainerTest.addMemberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codesSE2021" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.hbrs.se1.ws21.uebung1.control.*" />
+          <option name="PATTERN" value="org.hbrs.se1.ws21.uebung2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.hbrs.se1.ws21.uebung2" />
+      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws21.uebung2.ContainerTest" />
+      <option name="METHOD_NAME" value="addMemberTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GermanTranlatorTest.translateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ContainerTest.deleteMemberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codesSE2021" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.hbrs.se1.ws21.uebung1.Test.*" />
+          <option name="PATTERN" value="org.hbrs.se1.ws21.uebung2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.hbrs.se1.ws21.uebung1.Test" />
-      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws21.uebung1.Test.GermanTranlatorTest" />
-      <option name="METHOD_NAME" value="translateTest" />
+      <option name="PACKAGE_NAME" value="org.hbrs.se1.ws21.uebung2" />
+      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws21.uebung2.ContainerTest" />
+      <option name="METHOD_NAME" value="deleteMemberTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContainerTest.sizeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codesSE2021" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.hbrs.se1.ws21.uebung2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.hbrs.se1.ws21.uebung2" />
+      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws21.uebung2.ContainerTest" />
+      <option name="METHOD_NAME" value="sizeTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -125,17 +151,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.GermanTranslatorTest" />
-      <item itemvalue="JUnit.GermanTranlatorTest.translateTest" />
       <item itemvalue="JUnit.GermanTranslatorTest.translateTest" />
+      <item itemvalue="JUnit.ContainerTest.addMemberTest" />
+      <item itemvalue="JUnit.ContainerTest.deleteMemberTest" />
+      <item itemvalue="JUnit.ContainerTest.sizeTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ContainerTest.sizeTest" />
+        <item itemvalue="JUnit.ContainerTest.deleteMemberTest" />
+        <item itemvalue="JUnit.ContainerTest.addMemberTest" />
         <item itemvalue="JUnit.GermanTranslatorTest.translateTest" />
         <item itemvalue="JUnit.GermanTranslatorTest" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.GermanTranlatorTest.translateTest" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +192,7 @@
       <workItem from="1633984252076" duration="1823000" />
       <workItem from="1634035436640" duration="645000" />
       <workItem from="1634114952466" duration="2096000" />
-      <workItem from="1634296105254" duration="757000" />
+      <workItem from="1634296105254" duration="11475000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1633518201076</created>
@@ -187,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633773387731</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Initial commit">
+      <created>1634297250688</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1634297250688</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
