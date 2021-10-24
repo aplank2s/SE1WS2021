@@ -9,7 +9,7 @@ class ContainerTest {
     Container c;
     @BeforeEach
     void setUp(){
-        c = new Container();
+        c = Container.getContainerInstance();
     }
     @AfterEach
     void tearDown(){
