@@ -4,7 +4,7 @@ import org.hbrs.se1.ws21.uebung2.Container;
 import org.hbrs.se1.ws21.uebung2.ContainerException;
 import org.hbrs.se1.ws21.uebung2.Factory;
 
-public class Client {
+public class Client { //strategie setzen fehlt
     public static void main(String[] args) throws PersistenceException {
         Container c = Container.getContainerInstance();
         MemberView m = new MemberView();
